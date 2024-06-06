@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="creditms" />
+        <module name="debitms" />
+        <module name="customerms" />
+        <module name="registryserver" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="creditms" options="-parameters" />
+      <module name="customerms" options="-parameters" />
+      <module name="debitms" options="-parameters" />
+      <module name="registryserver" options="-parameters" />
+    </option>
+  </component>
+</project>
